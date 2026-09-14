@@ -2237,7 +2237,7 @@ async function saveFinanceData(key, value) {
         }
 
         // ===== 更新公告弹窗 =====
-        const UPDATE_VERSION = 'v2026-08-31-imessage'; // 每次更新改这个版本号，就会重新弹出
+        const UPDATE_VERSION = 'v2026-09-17-link-closure'; // 每次更新改这个版本号，就会重新弹出
         
         function checkUpdateNotice() {
             const readKey = 'update_notice_read_' + UPDATE_VERSION;
@@ -2256,12 +2256,16 @@ async function saveFinanceData(key, value) {
                     <div style="padding:24px 24px 0;text-align:center;">
                         <div id="update-notice-title" style="font-size:19px;font-weight:700;color:#000;letter-spacing:0.5px;">更新公告</div>
                     </div>
-                    <div style="padding:20px 24px 8px;font-size:13px;color:#000;line-height:1.8;letter-spacing:0.1px;overflow-y:auto;flex:1;">
-                        <div style="font-size:15px;font-weight:600;color:#000;margin-bottom:12px;">更新</div>
+                    <div style="padding:20px 24px 8px;font-size:13px;color:#000;line-height:1.8;letter-spacing:0.1px;overflow-y:auto;overflow-wrap:anywhere;flex:1;">
                         <div>
-                            <p style="margin:0 0 12px;">现已支持角色发送真实 iMessage，该功能仅 iOS 设备可用，发送消息会产生话费，请谨慎使用。</p>
-                            <p style="margin:0 0 12px;font-weight:600;">⚠️ 注意：仅可绑定单个角色，请勿绑定多个。</p>
-                            <p style="margin:0;">❗本功能非原创，参考开源项目 Hermes，借助 Photon 实现 iMessage 通讯。</p>
+                            <p style="margin:0 0 12px;font-weight:600;">9.17关闭所有相关链接，自行搬家。</p>
+                            <p style="margin:0 0 12px;">恳请往后所有事情都不要再提及我。</p>
+                            <p style="margin:0 0 12px;font-weight:600;">关于某跨圈鉴抄事件：</p>
+                            <p style="margin:0 0 12px;">A、B二人与受害者C存在私人恩怨，觉得C抄袭A、B。A、B便以C抄袭我的名义与C拉群。</p>
+                            <p style="margin:0 0 12px;">C私信询问我，我承认一开始我的语气不好，这是我的错误。当我得知事情经过后，表示此事我毫不知情并支持C受到伤害维权，让C可以引用我的说法对外澄清之后、阻止事态扩大之后，A、B又私信来给我发长文。</p>
+                            <p style="margin:0 0 8px;"><a href="https://i.postimg.cc/nhrcvqNp/IMG-4185.jpg" target="_blank" rel="noopener noreferrer"><img src="https://i.postimg.cc/nhrcvqNp/IMG-4185.jpg" alt="相关聊天记录截图一" loading="lazy" style="display:block;width:100%;height:auto;border-radius:8px;border:1px solid #e8e8e8;"></a></p>
+                            <p style="margin:0 0 12px;"><a href="https://i.postimg.cc/CK4PSfLZ/IMG-4187.jpg" target="_blank" rel="noopener noreferrer"><img src="https://i.postimg.cc/CK4PSfLZ/IMG-4187.jpg" alt="相关聊天记录截图二" loading="lazy" style="display:block;width:100%;height:auto;border-radius:8px;border:1px solid #e8e8e8;"></a></p>
+                            <p style="margin:0;">❗️我明白对于一个人的评价有好有坏，只是我个人不想再被关注。除此之外，我也希望自己的决定不会对一部分人造成负面影响。不要攻击任何人，关链接只是我个人决定。</p>
                         </div>
                     </div>
                     <div style="padding:14px 24px 22px;text-align:center;">
@@ -2297,7 +2301,7 @@ async function saveFinanceData(key, value) {
         }
 
         // ===== 通知弹窗（停更公告） =====
-        const NOTICE_ID = 'notice-2026-03-07'; // 修改此ID可让弹窗重新弹出
+        const NOTICE_ID = 'notice-2026-09-17'; // 修改此ID可让弹窗重新弹出
         
         function checkSiteNotice() {
             const readKey = 'site_notice_read_' + NOTICE_ID;
@@ -2337,16 +2341,15 @@ async function saveFinanceData(key, value) {
                     </div>
                     
                     <!-- 内容区 -->
-                    <div style="padding:20px 24px;font-size:13.5px;color:#444;line-height:2;letter-spacing:0.2px;overflow-y:auto;flex:1;">
-                        <p style="margin:0 0 14px;color:#262626;">很抱歉跟大家说一声，我决定无限期停更了。</p>
-                        <p style="margin:0 0 14px;color:#666;">最近一直被各种擦边消耗，实在没有心力再继续更新内容。</p>
-                        <p style="margin:0 0 14px;color:#666;">目前项目的主要 bug 已经修复得差不多，后续只处理严重影响基础使用的问题，其他不再维护。</p>
-                        <p style="margin:0 0 14px;color:#c0392b;font-weight:600;">❗️链接不会关闭，可以继续使用。</p>
-                        <div style="margin-top:16px;padding:14px 16px;background:#fafafa;border-radius:10px;border:1px solid #efefef;">
-                            <p style="margin:0 0 6px;font-size:13px;color:#888;font-weight:500;">另外温馨提醒：</p>
-                            <p style="margin:0;font-size:12.5px;color:#999;line-height:1.8;">本网页需要魔法（科学上网）才能正常打开，无法访问请检查网络环境。</p>
-                        </div>
-                        <p style="margin:18px 0 0;text-align:center;font-size:13px;color:#aaa;">谢谢大家曾经的喜欢。</p>
+                    <div style="padding:20px 24px;font-size:13.5px;color:#444;line-height:2;letter-spacing:0.2px;overflow-y:auto;overflow-wrap:anywhere;flex:1;">
+                        <p style="margin:0 0 14px;color:#262626;font-weight:600;">9.17关闭所有相关链接，自行搬家。</p>
+                        <p style="margin:0 0 14px;color:#444;">恳请往后所有事情都不要再提及我。</p>
+                        <p style="margin:0 0 14px;color:#262626;font-weight:600;">关于某跨圈鉴抄事件：</p>
+                        <p style="margin:0 0 14px;color:#444;">A、B二人与受害者C存在私人恩怨，觉得C抄袭A、B。A、B便以C抄袭我的名义与C拉群。</p>
+                        <p style="margin:0 0 14px;color:#444;">C私信询问我，我承认一开始我的语气不好，这是我的错误。当我得知事情经过后，表示此事我毫不知情并支持C受到伤害维权，让C可以引用我的说法对外澄清之后、阻止事态扩大之后，A、B又私信来给我发长文。</p>
+                        <p style="margin:0 0 8px;"><a href="https://i.postimg.cc/nhrcvqNp/IMG-4185.jpg" target="_blank" rel="noopener noreferrer"><img src="https://i.postimg.cc/nhrcvqNp/IMG-4185.jpg" alt="相关聊天记录截图一" loading="lazy" style="display:block;width:100%;height:auto;border-radius:8px;border:1px solid #efefef;"></a></p>
+                        <p style="margin:0 0 14px;"><a href="https://i.postimg.cc/CK4PSfLZ/IMG-4187.jpg" target="_blank" rel="noopener noreferrer"><img src="https://i.postimg.cc/CK4PSfLZ/IMG-4187.jpg" alt="相关聊天记录截图二" loading="lazy" style="display:block;width:100%;height:auto;border-radius:8px;border:1px solid #efefef;"></a></p>
+                        <p style="margin:0;color:#444;">❗️我明白对于一个人的评价有好有坏，只是我个人不想再被关注。除此之外，我也希望自己的决定不会对一部分人造成负面影响。不要攻击任何人，关链接只是我个人决定。</p>
                     </div>
                     
                     <!-- 按钮区 -->
